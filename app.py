@@ -1,5 +1,12 @@
 import os
+import newrelic.agent
 from flask import Flask, render_template, send_from_directory
+
+#configuring newrelic check
+config_file = os.environ.get('NEW_RELIC_CONFIG_FILE')
+environment = os.environ.get('NEW_RELIC_ENVIRONMENT')
+
+newrelic.agent.initialize(config_file, environment)
 
 # initialization
 app = Flask(__name__)
