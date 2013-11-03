@@ -15,7 +15,7 @@ app.config.update(
 )
 
 # controllers
-@app.route('/favicon.ico')
+@app.route('/favicon')
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'ico/favicon.ico')
     
@@ -26,6 +26,10 @@ def page_not_found(e):
 @app.route("/")
 def index():
     return render_template('website homepage.html')
+    
+@app.route("/hello")
+def hello():
+    return "Hello, World!"
 
 #launch
 if __name__ == "__main__":

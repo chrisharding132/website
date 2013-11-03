@@ -4,22 +4,39 @@ h1 {
 	font-family:Ostrich Sans;
 	padding:0px;
 	position:inherit;
-	padding-left:200px;
-	padding-right:0px;
+	margin-left:auto;
+	margin-right:auto;
 	font-size:80px;
 	clear:both;
-	margin-left:115px;
 	display:block;
 	width:1000px;
 	margin-bottom:20px;
 	margin-top:20px;
+	text-align:center;
+	align:center;
+}
+
+#Ideas {
+	color:#c20003;
+}
+
+#iDeas {
+	color:#FF231F;
+}
+
+#idEas {
+	color:#FFBF06;
+}
+
+#ideAs {
+	color:#FF710C;
 }
 
 h1 span {
 	color:#c20003;
 }
 
-#left_sidebar {
+/* #left_sidebar {
 	height:100%;
 	width:200px;
 	background-color:black;
@@ -28,9 +45,10 @@ h1 span {
 	top:-1px;
 	bottom:-1px;
 	left:0px;
-}
+	opacity:.7; 
+} */
 
-#top_link {
+/* #top_link {
 	font-size:35px;
 	margin-top:0px;
 	padding-top:50px;
@@ -44,10 +62,10 @@ h1 span {
 	font-size:30px;
 	color:white;
 	display:block;
-	text-align:center;
-}
+	text-align:center; 
+} */
 
-.sidebar_links {
+/* .sidebar_links {
 	display:block;
 	border-bottom: 4px white solid;
 	border-width:2px;
@@ -60,9 +78,9 @@ h1 span {
 	margin:40px 0px 40px 0px;
 	padding-left:30px;
 	padding-right:30px;
-	text-align:center;
+	text-align:center; 
 	
-}
+} */
 
 .logo {
 	height:150px;
@@ -83,11 +101,10 @@ p {
 	align:middle;
 	margin-top:10px;
 	margin-bottom:10px;
-	margin-left:220px;
 	border-top:2px black solid;
 	border-bottom:2px black solid;
-	margin-left:250px;
-	margin-right:0px;
+	margin-left:auto;
+	margin-right:auto;
 	padding-left:10px;
 	padding-right:10px;
 	padding-top:10px;
