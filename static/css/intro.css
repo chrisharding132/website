@@ -1,10 +1,13 @@
+body {
+	background-color:#e6e6e6;
+}
+
 #center_bar {
 	position:relative;
 	align:center;
 	height:700px;
 	width:115px;
 	background:black;
-	border:1px black double;
 	display:block;
 	margin-top:-5px;
 	margin-left:45%;
@@ -16,13 +19,14 @@
 	position:absolute;
 	text-decoration:none;
 	display:inline;
- 	color:white;
- 	background-color:black;
- 	border:2px white solid;
+ 	color:black;
+ 	background-color:#e6e6e6;
+	border-top:1px black solid;
+	border-bottom:1px black solid;
  	font-family:Ostrich Sans;
  	font-size:130%;
 	letter-spacing: 1px;
-	margin-left:-3px;
+	margin-left:-1px;
 	margin-top:200px;
 	padding-left:315px;
 	padding-right:5px;
@@ -34,14 +38,15 @@
 #person {
 	position:absolute;
 	text-decoration:none;
-	color:white;
-	background-color:black;
-	border:2px white solid;
+	color:black;
+	background-color:#e6e6e6;
+	border-top:1px black solid;
+	border-bottom:1px black solid;
 	display: inline;
 	font-family:Ostrich Sans;
 	font-size:130%;
 	letter-spacing: 1px;
-	margin-left:-254px;
+	margin-left:-253px;
 	margin-right:3px;
 	padding-right:315px;
 	padding-top:4px;
@@ -55,24 +60,29 @@ div #notion {
 	position:absolute;
 	background-color:#E83403;
 	border-top:2px white solid;
-	width:117px;
-	height:40px;
+	width:112px;
+	height:30px;
 	margin-left:-1px;
-	margin-top:660px;
+	margin-top:670px;
 	font-family:Ostrich Sans;
-	color:white;
+	font-size:200%;
+	color:#e6e6e6;
 	text-align:center;
-	padding-top:10px;
+	padding-top:2px;
+	padding-bottom:0px;
+	padding-left:5px;
+	letter-spacing: 5px;
 }
 
 div #flip {
 	position:absolute;
 	width:117px;
-	height:40px;
-	margin-top:625px;
+	height:20px;
+	margin-top:643px;
 	font-family:Ostrich Sans;
-	font-weight:3px;
-	color:white;
+	font-size:200%;
+	color:#e6e6e6;
 	text-align:center;
-	z-index:1;
+	letter-spacing: 5px;
+	padding-left:5px;
 }
