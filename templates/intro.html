@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<link type="text/css" rel="stylesheet" href="static/css/intro.css">
-		<title> Intro </title>
-	</head>
-	<body>
-		<!-- ><div class="page"></div> -->
+{% extends "chris_base.html" %}
+{% block title%} -Welcome {% endblock%}
+{% block style_link %} <link type="text/css" rel="stylesheet" href="static/css/intro.css"> {% endblock %}
+	{%block body%}
 		<div id="center_bar">
 			<a align="Right" id="business" href="www.google.com">Business</a>
 			<a id="person" href="www.yahoo.com">Person</a>
 			<p id="flip">Flip</p>
 			<p id="notion">Notion<p/>
 		</div>	
-	</body>
-</html>
+	{% endblock %}

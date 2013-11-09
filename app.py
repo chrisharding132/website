@@ -19,7 +19,7 @@ def page_not_found(e):
     
 @app.route("/")
 def index():
-    return render_template('intro.html')
+    return render_template('chris_base.html')
     
 @app.route("/hello")
 def hello():
