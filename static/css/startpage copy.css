@@ -1,0 +1,17 @@
+* {
+	border:2px dotted black;
+}
+
+#left_half {
+	border: 1px solid #999;
+}
+
+#right_half {
+	
+}
+
+a {
+	text-decoration:none;
+	font-family:Quicksand;
+	display: block;
+}
