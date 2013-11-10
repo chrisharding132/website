@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		{% block head %}
-			<title> FlipNotion{% block title %}{% endblock %} </title>
+			<title> Apella {% block title %}{% endblock %} </title>
 			{% block style_link %}{% endblock %}
 		{% endblock %}
 	</head>
@@ -10,7 +10,10 @@
 		{% block body%}
 			{% block navbar %}
 			{% endblock %}	
-		
+			
+			{% block content%}
+			{% endblock%}
+			
 			{% block footer%}
 			{% endblock %}
 		{% endblock %}
