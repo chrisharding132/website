@@ -11,7 +11,7 @@ app.config.update(
 # controllers
 @app.route('/home')
 def home():
-    return render_template('chris_base.html')
+    return render_template('business_homepage.html')
     
 @app.errorhandler(404)
 def page_not_found(e):
