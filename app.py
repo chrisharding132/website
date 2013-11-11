@@ -9,9 +9,9 @@ app.config.update(
 )
 
 # controllers
-@app.route('/favicon')
+@app.route('/home')
 def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'ico/favicon.ico')
+    return render_template('chris_base.html')
     
 @app.errorhandler(404)
 def page_not_found(e):

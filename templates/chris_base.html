@@ -4,12 +4,15 @@
 		{% block head %}
 			<title> Apella {% block title %}{% endblock %} </title>
 			{% block fonts %}{% endblock %}
-			{% block style_link %}{% endblock %}
+			{% block style_link %}  <link type="text/css" rel="stylesheet" href="static/css/base_style.css">{% endblock %}
 		{% endblock %}
 	</head>
 	<body>
 		{% block body%}
 			{% block navbar %}
+			<div id="nav_bar">
+				
+			</div>
 			{% endblock %}	
 			
 			{% block content%}

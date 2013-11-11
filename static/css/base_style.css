@@ -1,0 +1,16 @@
+body {
+	background-color:#e6e6e6;
+}
+
+#center_bar {
+	position:relative;
+	align:center;
+	height:700px;
+	width:115px;
+	background:black;
+	display:block;
+	margin-top:-20px;
+	margin-left:45%;
+	margin-right:45%;
+	float: none;
+} 
