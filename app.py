@@ -10,8 +10,8 @@ app.config.update(
 
 # controllers
 @app.route('/home')
-def favicon():
-    return render_template('chris_base.html')
+def home():
+    return render_template('templates/chris_base.html')
     
 @app.errorhandler(404)
 def page_not_found(e):
